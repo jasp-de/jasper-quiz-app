@@ -1,0 +1,19 @@
+main {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.title__heading {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: gainsboro;
+  padding: 10px;
+  margin: 0px;
+  font-size: 130%;
+}
