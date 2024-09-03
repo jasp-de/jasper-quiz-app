@@ -17,3 +17,53 @@ body {
   margin: 0px;
   font-size: 130%;
 }
+
+.question-container {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  margin: 10px;
+  padding: 20px;
+}
+
+.question-card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 10px;
+  padding: 20px;
+  border: 1px black solid;
+  border-radius: 10px;
+}
+.card__question {
+  align-self: center;
+}
+
+.card__button {
+  align-self: center;
+}
+
+.card__bookmark {
+  height: 100%;
+  width: auto;
+}
+
+.card__answer {
+  display: none;
+}
+.card__tag-container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: flex-start;
+  gap: 10px;
+  margin: 60px 10px 10px 10px;
+}
+
+.card__tag {
+  background-color: aquamarine;
+  padding: 2px 15px;
+  border-radius: 15px;
+}
