@@ -22,7 +22,6 @@ body {
 .question-container {
   display: flex;
   flex-flow: column wrap;
-  align-content: center;
   margin: 10px;
   padding: 20px;
 }
@@ -30,8 +29,7 @@ body {
 .question-card {
   display: flex;
   flex-flow: column wrap;
-  justify-content: center;
-  align-self: center;
+  text-align: center;
   width: 80%;
   margin: auto;
   margin-bottom: 60px;
@@ -43,6 +41,7 @@ body {
 .card__question {
   align-self: center;
   align-content: center;
+  text-align: center;
 }
 
 .card__button {
@@ -54,9 +53,29 @@ body {
   width: auto;
 }
 
+.bookmark {
+  width: 30px;
+  margin-left: 90%;
+  margin-top: -28px;
+}
+
+:target.bookmark {
+  display: none;
+  width: 100px;
+}
+
+.filled-bookmark {
+  width: 30px;
+  margin-left: 90%;
+  margin-top: -30px;
+  display: block;
+  z-index: -1;
+}
+
 .card__answer {
   display: none;
 }
+
 .card__tag-container {
   display: flex;
   flex-flow: row wrap;
@@ -64,19 +83,12 @@ body {
   justify-content: flex-start;
   align-content: flex-start;
   gap: 10px;
-  margin: 60px 10px 10px 10px;
 }
 
 .card__tag {
   background-color: aquamarine;
   padding: 2px 15px;
   border-radius: 15px;
-}
-
-.bookmark {
-  width: 30px;
-  margin-left: 90%;
-  margin-top: -28px;
 }
 
 .navigation {
