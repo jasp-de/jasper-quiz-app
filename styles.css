@@ -42,6 +42,7 @@ body {
 
 .card__question {
   align-self: center;
+  align-content: center;
 }
 
 .card__button {
@@ -98,6 +99,10 @@ body {
   display: inline-block;
 }
 
-::hover.navigation__item {
+.navigation__item:hover {
   color: blue;
+}
+
+#questions {
+  margin-bottom: 100px;
 }
